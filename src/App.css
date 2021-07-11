@@ -1,3 +1,101 @@
+@import '~antd/dist/antd.css';
+@import '~slick-carousel/slick/slick.css'; 
+@import '~slick-carousel/slick/slick-theme.css';
+
+.btn-cant {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 3px 0;
+  font-size: 16px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  border: solid 1px;
+  border-color: #25c16a;
+  color: #25c16a;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn-trash {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 3px 0;
+  font-size: 16px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  border: none;
+  color: #646464;
+  background-color: white;
+  cursor: pointer;
+}
+
+.counter{
+  margin: 10px;
+  font-size: 18px;
+}
+
+.pcard{
+  margin-left: 10px;
+  border-color: #25c16a;
+}
+
+.btnadd{
+  background-color: #25c16a;
+  border:none;
+  width:97%;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.txtbtnadd{
+  color: white;
+  font-size: 18px;
+}
+
+.tooltpttl{
+  color: #e7b164;
+}
+
+.spf{
+  color: #25c16a;
+  font-size: 18px;
+}
+
+.prodttl{
+  color: black;
+  font-size: 21px;
+  white-space: nowrap;      
+  overflow: hidden;         
+  text-overflow: ellipsis;  
+  display: inline-block;
+  white-space:nowrap; 
+  width: 13vw; 
+}
+
+.cop{
+  color: #25c16a;
+  font-size: 24px;
+}
+
+.val{
+  color: black;
+  font-size: 24px;
+}
+
+.pcontrol{
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #8f8f8f;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #25c16a;
+}
+
 .App {
   text-align: center;
 }
